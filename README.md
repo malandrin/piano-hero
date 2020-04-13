@@ -1,3 +1,5 @@
+![Screenshot](screenshot.png)
+
 ## Description
 
 This project tries to imitate the style of the "Guitar Hero" games. Features:
