@@ -1,3 +1,5 @@
+# Piano Hero
+
 ![Screenshot](screenshot.png)
 
 ## Description
