@@ -146,7 +146,9 @@ export default class {
             break
 
             default:
+              /* eslint-disable no-console */
               console.log(`event: ${eventType} not supported`)
+              /* eslint-enable no-console */
               break
           }
         }

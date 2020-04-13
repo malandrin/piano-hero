@@ -427,7 +427,9 @@ export default {
       const self = this
       let request = new XMLHttpRequest()
 
-      request.open('GET', '/static/beethoven_fur_elise.mid', true)
+      const filePath = (process.env.NODE_ENV === 'production') ? '/apps/piano-hero/static/beethoven_fur_elise.mid' : '/static/beethoven_fur_elise.mid'
+
+      request.open('GET', filePath, true)
       request.responseType = 'arraybuffer'
 
       request.onload = function() {
