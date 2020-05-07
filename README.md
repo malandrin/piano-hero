@@ -22,7 +22,7 @@ This project is an experiment I did it to learn a bit more about the Web Audio A
 
 This project uses Vue.js and Buefy.
 
-You can try it at: https://www.cesarbotana.com/apps/piano-hero/
+You can try it at: https://malandrin.github.io/piano-hero/
 
 ## Project setup
 ```
